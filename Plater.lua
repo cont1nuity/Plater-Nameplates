@@ -3834,9 +3834,10 @@ function Plater.OnInit() --private --~oninit ~init
 		function Plater:PLAYER_LOGIN()
 			C_Timer.After(0.1, Plater.RestoreProfileCVars)
 			
-			C_Timer.After (0.2, Plater.UpdatePlateClickSpace)
+			C_Timer.After (0.2, Plater.ForceCVars)
 			--C_Timer.After (0.3, Plater.GetSpellForRangeCheck)
-			C_Timer.After (0.4, Plater.ForceCVars)
+			C_Timer.After (0.4, Plater.UpdatePlateClickSpace)
+			
 			
 			-- ensure OmniCC settings are up to date
 			C_Timer.After (1, Plater.RefreshOmniCCGroup)
