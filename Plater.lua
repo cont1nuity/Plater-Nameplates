@@ -3546,6 +3546,14 @@ local class_specs_coords = {
 			plateFrame.unitFrame.HighlightFrame:Hide()
 			plateFrame.unitFrame.HighlightFrame.Shown = false
 			
+			--hide target highlight
+			plateFrame.TargetNeonUp:Hide()
+			plateFrame.TargetNeonDown:Hide()
+			
+			--hide threat highlight
+			plateFrame.unitFrame.aggroGlowUpper:Hide()
+			plateFrame.unitFrame.aggroGlowLower:Hide()
+			
 			--> check if is running any script
 			plateFrame.unitFrame:OnHideWidget()
 			plateFrame.unitFrame.castBar:OnHideWidget()
