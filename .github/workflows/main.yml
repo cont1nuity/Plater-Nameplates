@@ -1,5 +1,5 @@
 # description of this workflow, can be anything you want
-name: Package and release
+name: Package and release - All
 
 # we need to let GitHub know _when_ we want to release, typically only when we create a new tag.
 # this will target only tags, and not all pushes to the master branch.
@@ -7,8 +7,10 @@ name: Package and release
 # other branches or even pullrequests.
 on:
   push:
-    tags:
-      - '**'
+    branches:
+      - master
+    paths-ignore:
+      - '.github/**'
 
 # a workflow is built up as jobs, and within these jobs are steps
 jobs:
