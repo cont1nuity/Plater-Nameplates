@@ -5,6 +5,7 @@
 ## SavedVariables: PlaterDB
 ## SavedVariablesPerCharacter: PlaterDBChr
 ## Version: @project-version@
+## X-Curse-Project-ID: 467073
 
 #@no-lib-strip@
 libs\libs.xml
