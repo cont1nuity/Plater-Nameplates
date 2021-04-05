@@ -4,7 +4,12 @@
 ## Notes: Nameplate addon designed for advanced users.
 ## SavedVariables: PlaterDB
 ## SavedVariablesPerCharacter: PlaterDBChr
-## Version: @project-version@
+#@version-retail@
+## Version: @project-version@-Retail
+#@end-version-retail@
+#@version-bc@
+## Version: @project-version@-BC
+#@end-version-bc@
 ## X-Curse-Project-ID: 467073
 
 #@no-lib-strip@
