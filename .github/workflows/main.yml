@@ -31,10 +31,10 @@ jobs:
       - name: Package and Release - Retail
         uses: BigWigsMods/packager@master
         with:
-          args: -g retail -p 467073 -w RqGY0RKg
+          args: -g retail -p 467073 -a RqGY0RKg
 
       - name: Package and release for BC
         uses: BigWigsMods/packager@master
         with:
-          args: -g bc -p 467073 -w RqGY0RKg
+          args: -g bc -p 467073 -a RqGY0RKg
           
