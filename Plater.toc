@@ -1,4 +1,4 @@
-## Interface: 20501
+## Interface: 90005, 20501, 11305
 ## Interface-BC: 20501
 ## Interface-Classic: 11305
 ## Title: Plater
