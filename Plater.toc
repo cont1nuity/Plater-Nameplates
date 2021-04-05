@@ -38,4 +38,3 @@ Plater_Docs.lua
 Plater_BossModsSupport.lua
 Plater_Animations.lua
 Plater_Profiling.lua
-#Plater_SpellPrediction.lua
