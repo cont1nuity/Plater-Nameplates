@@ -34,7 +34,7 @@ jobs:
 
       - name: Create Changelog
         run: |
-          changelog.sh latest
+          ./changelog.sh
         shell: bash
 
       - name: Package and Release - Retail
