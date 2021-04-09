@@ -468,4 +468,3 @@ if arg and arg[1] then
 	print(Plater.GetChangeLogText(requiredInfo))
 end
 
-
