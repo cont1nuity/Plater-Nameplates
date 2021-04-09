@@ -1,5 +1,5 @@
 
-#!/usr/bin/bash
+#!/bin/bash
 ##sed -i '1s/^.*#//;s/\r$//' changelog.sh
 #git update-index --chmod=+x changelog.sh
 
